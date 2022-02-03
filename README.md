@@ -34,8 +34,6 @@ You should see the testing results something like this:
 ```
 Using network 'development'.
 
-
-
   Contract: TestERC721Mintable
     match erc721 spec
       ✓ should return total supply
@@ -60,7 +58,21 @@ Using network 'development'.
   10 passing (6s)
 ```
 
+## Mint tokens, list them on Opensea and purchase the tokens from another account
 
+- 10 RET tokens were minted. The mint trxns can be found in the records of this account `0x3dBfDB6645a29de012BC5018Ef95e354CCbE69f3` on Rinkeby
+
+- 5 tokens were listed on Opensea(testnet). The collection can be viewed here https://testnets.opensea.io/collection/realestatetitletoken
+
+- Those 5 tokens were purchased by another address, the trxns can be found in the records of this account `0xB9E73f74451A779A4d8771886877AA5280495319` on Rinkeby; or, Opensea also displays past transactions of each NFT. For example, check out this one here https://testnets.opensea.io/assets/0xab4f59ba8ee5370f98f352d4dd3dc5ecbff0e38e/2
+
+
+## Built with
+```
+Truffle v5.0.1 (core: 5.0.1)
+Solidity - 0.5.10 (solc-js)
+Node v10.7.0
+```
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
