@@ -28,7 +28,7 @@ The contracts' ABI can be found in the folder `build/contracts` in this repo. Gi
 
 - Use the command `truffle test` to unit tests the contract
 
-*Please be advised that the `ERC721Mintable.sol` was NOT deployed to Rinkeby and it was commented out in the `2_deploy_contracts.js` as in the final configuration. If you want to test on this file, just uncomment that piece so that it can also be deployed to your local network and can run testing scripts on it.*
+*Please be advised that the `ERC721Mintable.sol` was NOT deployed to Rinkeby and it was commented out in the `migrations/2_deploy_contracts.js` as in the final configuration. If you want to test on this file, just uncomment that piece so that it can also be deployed to your local network and can run testing scripts on it.*
 
 You should see the testing results something like this:
 ```
