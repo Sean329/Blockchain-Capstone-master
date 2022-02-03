@@ -16,6 +16,20 @@ Final Project for Blockchain NanoDegree that requires to mint own tokens to repr
 0x3dBfDB6645a29de012BC5018Ef95e354CCbE69f3
 ```
 
+## Contract ABI
+The contracts' ABI can be found in the folder `build/contracts` in this repo. Github may complain it's too large to display, then you may just choose to "view raw" or download the JSON files to your local and view.
+
+## How to test the contract code locally
+- Open a Terminal window and change directory to your project folder
+
+- Run the command `truffle develop` to start a local ethereum network
+
+- Open a new Terminal tab at the same directory, and use the command `truffle compile` to compile your solidity contract files
+
+- Use the command `truffle test` to unit tests the contract
+
+*Please be advised that the `ERC721Mintable.sol` was NOT deployed to Rinkeby and it was commented out in the `2_deploy_contracts.js` as in the final configuration. If you want to test on this file, just uncomment that piece so that it can also be deployed to your local network and can run testing scripts on it.*
+
 
 # Project Resources
 
