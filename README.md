@@ -5,8 +5,17 @@ Final Project for Blockchain NanoDegree that requires to mint own tokens to repr
 ## Contract addresses on Rinkeby testnet
 ### Verifier
 ```
-
+0x2af5c1538248f1e5dd801e7eb961199c5b5839dc
 ```
+### SolnSquareVerifier
+```
+0xab4f59ba8ee5370f98f352d4dd3dc5ecbff0e38e
+```
+### From Account
+```
+0x3dBfDB6645a29de012BC5018Ef95e354CCbE69f3
+```
+
 
 # Project Resources
 
