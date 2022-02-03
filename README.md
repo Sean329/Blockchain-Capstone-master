@@ -30,6 +30,36 @@ The contracts' ABI can be found in the folder `build/contracts` in this repo. Gi
 
 *Please be advised that the `ERC721Mintable.sol` was NOT deployed to Rinkeby and it was commented out in the `2_deploy_contracts.js` as in the final configuration. If you want to test on this file, just uncomment that piece so that it can also be deployed to your local network and can run testing scripts on it.*
 
+You should see the testing results something like this:
+```
+Using network 'development'.
+
+
+
+  Contract: TestERC721Mintable
+    match erc721 spec
+      ✓ should return total supply
+      ✓ should get token balance
+      ✓ should return token uri
+      ✓ should transfer token from one owner to another (78ms)
+    have ownership properties
+      ✓ should fail when minting when address is not contract owner (47ms)
+      ✓ should return contract owner
+
+  Contract: TestSolnSquareVerifier
+    Mint with verifier
+      ✓ Verifying minting (673ms)
+      ✓ Should fail when minting without verifying (104ms)
+
+  Contract: TestVerifier
+    Verify Tx
+      ✓ Correct verification (539ms)
+      ✓ Verifier captures wrong input (42ms)
+
+
+  10 passing (6s)
+```
+
 
 # Project Resources
 
